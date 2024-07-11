@@ -11,4 +11,10 @@ public class HelloController {
     public String hello() {
         return "Hello, the time at the server is now " + new Date() + "\n";
     }
+
+
+@GetMapping("/crud/hello")
+public String cruddoo() {
+    return "Hello, from the crudserver \n";
+}
 }
